@@ -9,10 +9,7 @@ int main(void)
 char letter;
 for (letter = 'a'; letter <= 'z'; letter++)
 {
-putchar(lrtter);
-}
-if (letter != 'e' && letter != 'q')
-{			
+if (letter != 'e' && letter != 'q')			
 putchar(letter);
 }
 putchar('\n');
