@@ -6,13 +6,12 @@
  */
 int main(void)
 {
-int num;
-char letter;
-for (num = 0; num <= '9'; num++)
+char c;
+for (c = '0'; c <= '9'; c++)
 {
-putchar(num);
-for (letter = 'a'; letter <= 'f'; letter++)
-putchar(letter);
+putchar(c);
+for (c = 'a'; c <= 'f'; c++)
+putchar(c);
 }
 putchar('\n');
 return (0);
